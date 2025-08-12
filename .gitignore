@@ -1,0 +1,5 @@
+source/env/dev/.terraform.lock.hcl
+source/env/dev/.terraform/modules/modules.json
+source/env/dev/.terraform/providers/registry.terraform.io/hashicorp/aws/6.8.0/darwin_arm64/LICENSE.txt
+source/env/dev/.terraform/providers/registry.terraform.io/hashicorp/aws/6.8.0/darwin_arm64/terraform-provider-aws_v6.8.0_x5
+source/env/dev/terraform.tfstate.backup

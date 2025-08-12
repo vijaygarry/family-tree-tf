@@ -1,0 +1,13 @@
+environment          = "dev"
+aws_profile          = "dev"
+region               = "us-east-1"
+key_name             = "chippa-ec2-key"
+ami_id               = "ami-0de716d6197524dd9"
+instance_type        = "t3.medium"
+https_port           = 443
+vpc_cidr             = "10.0.0.0/16"
+public_subnet_cidr   = "10.0.1.0/24"
+availability_zone    = "us-east-1a"
+user_data_file       = "scripts/ec2-startup.sh"
+allowed_ssh_ip       = "0.0.0.0/0"
+ssh_key_file_path   = "/Users/vijaygarothaya/work/product/family-tree/aws/chippa-ec2-key.pem"

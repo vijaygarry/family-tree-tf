@@ -1,0 +1,11 @@
+environment          = "prod"
+aws_profile = "dev"
+region               = "us-east-1"
+key_name             = "prod-keypair"
+ami_id               = "ami-09c813fb71547fc4f"
+instance_type        = "t3.medium"
+https_port           = 443
+vpc_cidr             = "10.0.0.0/16"
+public_subnet_cidr   = "10.0.2.0/24"
+availability_zone    = "us-east-1b"
+user_data_file       = "scripts/startup-prod.sh"
