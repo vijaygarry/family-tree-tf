@@ -10,7 +10,15 @@ resource "aws_security_group" "https_sg" {
     protocol    = "tcp"
     cidr_blocks = ["0.0.0.0/0"]
   }
-
+  # port 8080 added for testing
+  ingress {
+    description = "Allow HTTPS inbound"
+    from_port   = 8080
+    to_port     = 8080
+    protocol    = "tcp"
+    cidr_blocks = ["0.0.0.0/0"]
+  }
+  
   egress {
     description = "Allow all outbound"
     from_port   = 0
